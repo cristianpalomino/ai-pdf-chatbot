@@ -21,11 +21,11 @@ jobs:
     steps:
       - name: Checkout to the branch
         uses: actions/checkout@v2
-        echo: "Checkout to the branch"
+      - run: echo "Checkout to the branch"
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v1
-        echo: "Set up Docker Buildx"
+      - run: echo "Set up Docker Buildx"
 
   #     - name: Log in to GitHub container registry
   #       uses: docker/login-action@v1.10.0
