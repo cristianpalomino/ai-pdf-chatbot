@@ -1,0 +1,15 @@
+# Azure SDK dependencies
+azure-identity==1.15.0
+azure-search-documents==11.4.0b8
+
+# LLM and AI libraries
+langchain==0.0.329
+openai==0.28.1
+tiktoken==0.5.2
+
+# Environment variable management
+python-dotenv==1.0.0
+
+# Web framework and server
+fastapi==0.108.0
+uvicorn[standard]==0.25.0
